@@ -1,3 +1,5 @@
+Building AVE
+============
 To build the a version of AVE, first download the source code from [GitHub](/git).
 
 The `build.py` file in the downloaded folder allows you to build the different versions.

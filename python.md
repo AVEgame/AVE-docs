@@ -1,8 +1,9 @@
+Python Version
+==============
 AVE was first written in Python to run in terminal in Linux and Mac.
 
 Obtaining the Python Version of AVE
-===================================
-
+-----------------------------------
 Before making your own games, you should download the Python version of AVE.
 This will allow you to run your game to test it.
 The easiest way to do this is to

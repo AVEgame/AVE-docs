@@ -1,3 +1,5 @@
+Badge Version
+=============
 img:l /img/badge.jpg AVE running on the EMF [TiLDA Mk&pi;](https://badge.emfcamp.org/wiki/TiLDA_MK3) badge.
 At [Elecromagetic Field (EMF) 2016](https://emfcamp.org), all attendees were given
 a [TiLDA Mk&pi;](https://badge.emfcamp.org/wiki/TiLDA_MK3) badge. We have
