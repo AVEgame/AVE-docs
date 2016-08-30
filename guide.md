@@ -4,7 +4,10 @@ Making Your Own AVE Game
 Before making your own game, [download the Python version of AVE](/docs/python.md)
 
 To make your own game for AVE, create a file with the extension `.ave` in the `games` folder.
-If you use the text editor nano, the file `ave.nanorc` will enable useful syntax highlighting in `.ave` files.
+
+Before writing a game, you may find it very helpful to enable syntax highlighting.
+Currently, we have implemented syntax highlighting for the text editor nano.
+You can find more details about syntax highlighting, and how to enable it [here](/docs/syntax_highlighting.md).
 
 Game Description
 ----------------
