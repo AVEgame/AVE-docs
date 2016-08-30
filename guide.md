@@ -1,9 +1,11 @@
 Making Your Own AVE Game
 ========================
 
-Before making your own game, [download the Python version of AVE](/docs/python.md)
+Before making your own game, [download the Python version of AVE](/docs/python.md).
 
 To make your own game for AVE, create a file with the extension `.ave` in the `games` folder.
+Once your game has been created in the `games` folder, it should appear on the list of games when you run
+`run.py`. To run `run.py` open termainal, use `cd` to navigate to the AVE folder, then type `python run.py` or `./run.py`.
 
 Before writing a game, you may find it very helpful to enable syntax highlighting.
 Currently, we have implemented syntax highlighting for the text editor nano.
