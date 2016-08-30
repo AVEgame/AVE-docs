@@ -29,6 +29,14 @@ files of the game.
 
 Please note: the %id% from `gamelist.json` will include `user/` (if it's a user game) and `.ave`.
 
+download/%filename%.items and download/user/%filename%.items
+--------------------------------------------------------
+`http://www.avegame.co.uk/download/%filename%.items` and `http://www.avegame.co.uk/download/user/%filename%.item` will give you just the
+items from the `.ave` file of the game.
+
+Please note: the %id% from `gamelist.json` will include `user/` (if it's a user game) and `.ave`. This `.ave` should be replaced with `.items`
+if the items file is desired.
+
 
 download/%filename%.json and download/user/%filename%.json
 ----------------------------------------------------------
