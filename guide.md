@@ -1,7 +1,11 @@
 Making Your Own AVE Game
 ========================
 
-Before making your own game, [download the Python version of AVE](/docs/python.md).
+Before making your own game, download the latest version of AVE:
+
+- [Latest Python build (Linux/Mac)](https://github.com/AVEgame/AVE/releases/download/v1.3/AVE1.3-python.zip).
+- [Latest JavaScript build (Windows)](https://github.com/AVEgame/AVE/releases/download/v1.3/AVE1.3-javascript.zip).
+- [Build from source](/docs/build.md)
 
 To make your own game for AVE, create a file with the extension `.ave` in the `games` folder.
 Once your game has been created in the `games` folder, it should appear on the list of games when you run
