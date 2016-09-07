@@ -52,6 +52,12 @@ For example, you could make the following two rooms:
 This example will start with you being bored. You will be presented with one option: watching Star Trek. Once you click this option,
 you will be sent to the room with ID `trek`, where you have one option: to turn off Star Trek. Doing this sends you back to this first room.
 
+Room descriptions can contain line breaks. `<newline>` with spaces either side will be converted into a line break. For example:
+
+    # trek
+    You are watching Star Trek. <newline> This is a second line of text.
+    Stop watching Star Trek => start
+
 Items
 -----
 Items can be added to a user's inventory with the `+` symbol at the end of a line.
