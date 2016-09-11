@@ -103,7 +103,7 @@ If you need to check whether the player has an empty bucket, you will need to ch
 
     You need water in the bucket. ? bucket ?! water
 
-We are currently working on implementing OR. It should be complete very soon. It will use the following syntax:
+If you want to check if you have one item or another item, use the following syntax:
     You need bucket or water. ? (bucket water)
     You need bucket or not water. ? (bucket !water)
 
