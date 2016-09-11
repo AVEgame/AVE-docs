@@ -8,5 +8,6 @@ This page contains links to every page in the AVE documentation.
 ** [Python version](/docs/python.md)
 ** [EMF badge version](/docs/emf.md)
 ** [JavaScript version](/docs/javascript.md)
+** [VirtualBox image](/docs/virtualbox.md)
 * [Building AVE](/docs/build.md)
 * [Website reference](/docs/website.md)
