@@ -11,3 +11,4 @@ This page contains links to every page in the AVE documentation.
 ** [VirtualBox image](/docs/virtualbox.md)
 * [Building AVE](/docs/build.md)
 * [Website reference](/docs/website.md)
+* [IRC](/docs/irc.md)
