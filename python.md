@@ -12,3 +12,4 @@ The easiest way to do this is to
 Alternatively, you can download the source from [GitHub](/git) then build the Python version by running `./build.py python` in terminal.
 You more information about building different version of AVE [here](/docs/build.md).
 
+If you want to run the Python version of AVE on a non-Linux/Mac computer, you can download our [VirtualBox image](/docs/virtualbox.md).
