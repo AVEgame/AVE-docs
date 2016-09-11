@@ -5,7 +5,7 @@ You can run this on your computer by installing
 [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
 Once you have downloaded and installed 
-[Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads), download the [image of AVE](https://dl.dropboxusercontent.com/u/31557305/AVE.ova).
+[Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads), download the [image of AVE](https://dl.dropboxusercontent.com/u/31557305/AVE.ova) (right click, Save Link As... or Save Target As...).
 You can then open this in VirtualBox by clicking File -> Import Appliance....
 
 Sharing the `games` Folder
