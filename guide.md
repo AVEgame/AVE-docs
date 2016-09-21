@@ -59,6 +59,17 @@ Room descriptions can contain line breaks. `<newline>` with spaces either side w
     You are watching Star Trek. <newline> This is a second line of text.
     Stop watching Star Trek => start
 
+Random Destinations
+-------------------
+If you would like to send a player to a randomly chosen destination, use the following syntax:
+
+    # start
+    What to do today?
+    Do something random => __R__(room1,room2)
+    Do something random => __R__(room1,room2)[5,1]
+
+The first option will randomly choose `room1` or `room2`. The second option will choose `room1` or `room2` with probabilities 5/6 and 1/6.
+
 Items
 -----
 Items can be added to a user's inventory with the `+` symbol at the end of a line.
@@ -106,6 +117,37 @@ If you need to check whether the player has an empty bucket, you will need to ch
 If you want to check if you have one item or another item, use the following syntax:
     You need bucket or water. ? (bucket water)
     You need bucket or not water. ? (bucket !water)
+
+Numbers
+-------
+You can set an item to be a numerical variable, by writing `__NUMBER__` when defining its name:
+    % money
+    Money
+    __NUMBER__(40)
+
+To add one to the number write the following at the end of a line:
+    + money
+
+To take one from the number write the following at the end of a line:
+    ~ money
+
+To set a number equal to 10, add 10 to it or take 10 from it, write one of the following at the end of a line:
+    + money=10
+    + money+10
+    + money-10
+
+To test is a number if equal to or greater than a number, use the following:
+    Do this => start ? money==4
+    Do this => start ? money>=5
+    Do this => start ? money>10
+
+Less than also works similarly.
+
+When testing, random numbers can be used. `__R__` will give a random number between 0 and 1. `__R__(n)` will give a random number
+between 0 and n. For example, the first of these is shown 50% of the time; and the second is shown if `money` is greater than a random number
+between 0 and 10.
+    Do this => start ? __R__>0.5
+    Do this => start ? money>__R__(10)
 
 Game Over
 ---------
