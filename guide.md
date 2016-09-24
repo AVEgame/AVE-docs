@@ -27,6 +27,9 @@ You may also prevent a game from appearing in the menu on the main screen by add
 
     ~~ off ~~
 
+You may also set the position at which the game appears (default games only):
+    @@ 1 @@
+
 Rooms
 -----
 Rooms are started with `#`. There must be a space following this and then the unique ID of the room.
@@ -148,6 +151,10 @@ between 0 and n. For example, the first of these is shown 50% of the time; and t
 between 0 and 10.
     Do this => start ? __R__>0.5
     Do this => start ? money>__R__(10)
+
+To show the value of a number in a line of text, write the variable name
+between two dollar signs, for example:
+    You have $money$ euros.
 
 Game Over
 ---------
