@@ -74,7 +74,9 @@ If the option is chosen, %%adds%% and %%rems%% will be added and removed, then t
 The items in %%items%% will have the following format:
     %%string id%%:[
                  %%list names%%,
-                 %%bool hidden%%
+                 %%bool hidden%%,
+                 %%bool number%%,
+                 %%int start_value_for_number%%
                 ]
 %%names%% will contain items of the format `{"name":%%string name%%,"needs":%%list needs%%,"unneeds":%%list unneeds%%,"adds":%%list adds%%,"rems":%%list rems%%}`.
 %%name%% will appear in the inventory if the item is held and %%needs%% and %%unneeds%% are satisfied.
