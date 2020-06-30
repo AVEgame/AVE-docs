@@ -8,13 +8,15 @@ gamelist.json
 `http://www.avegame.co.uk/gamelist.json` contains a list of all available AVE games.
 This includes both the default games and the user contributed games.
 The games in this json will appear in the following format:
+```
     %%string id%%:[
-                 "title":%%string title%%,
-                 "author":%%string author%%,
-                 "desc":%%string desc%%,
-                 "active":%%bool active%%,
-                 "user":%%bool user%%
-                ]
+               "title":%%string title%%,
+               "author":%%string author%%,
+               "desc":%%string desc%%,
+               "active":%%bool active%%,
+               "user":%%bool user%%
+              ]
+```
 
 %%id%% will end in `.ave` and gives the location of the `.ave` game file (`http://www.avegame.co.uk/download/%%id%%`).
 For the `.json` game file, replace the `.ave` with `.json`. For all user games, %%id%% starts with `user/`.
