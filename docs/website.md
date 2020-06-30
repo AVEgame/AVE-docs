@@ -50,20 +50,25 @@ Please note: the %%id%% from `gamelist.json` will include `user/` (if it's a use
 if the json file is desired.
 
 The json file will have the following format:
+```
     {
      "rooms":%%dict rooms%%,
      "items":%%dict items%%,
      "loaded":%%bool loaded%%
     }
+```
+
 %%rooms%% and %%items%% will contain the game data. %%loaded%% tells you whether the game has loaded properly. If %%loaded%% is false, it is most
 likely that the game does not exist.
 
 The items in %%rooms%% will have the following format:
+```
     %%string id%%:[
                  %%string id%%,
                  %%list info%%,
                  %%list options%%
                 ]
+```
 %%id%% is the ID of the room.
 
 %%info%% will contain items of the format `{"text":%%string text%%,"needs":%%list needs%%,"unneeds":%%list unneeds%%,"adds":%%list adds%%,"rems":%%list rems%%}`.
@@ -74,12 +79,14 @@ These options will be offered to the player if %%needs%% and %%unneeds%% are sat
 If the option is chosen, %%adds%% and %%rems%% will be added and removed, then the player will be sent to the room with ID %%option_id%%.
 
 The items in %%items%% will have the following format:
+```
     %%string id%%:[
                  %%list names%%,
                  %%bool hidden%%,
                  %%bool number%%,
                  %%int start_value_for_number%%
                 ]
+```
 %%names%% will contain items of the format `{"name":%%string name%%,"needs":%%list needs%%,"unneeds":%%list unneeds%%,"adds":%%list adds%%,"rems":%%list rems%%}`.
 %%name%% will appear in the inventory if the item is held and %%needs%% and %%unneeds%% are satisfied.
 %%adds%% and %%rems%% are probably not implemented (as it's not at all clear what they should do).
