@@ -75,3 +75,11 @@ Number items
 | ----------- | -------------------------------- |
 | `__R__`     | A random number between 0 and 1  |
 | `__R__(10)` | A random number between 0 and 10 |
+
+Other
+-----
+
+| Example        | Effect                                    |
+| -------------- | ----------------------------------------- |
+| `<newline>`    | Include a newline                         |
+
