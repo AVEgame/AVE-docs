@@ -4,13 +4,14 @@ Full AVE language reference
 Preamble
 --------
 
-| Characters | Property                        |
-| ---------- | ------------------------------- |
-| `==`       | Name                            |
-| `--`       | Description                     |
-| `**`       | Author                          |
-| `@@`       | Position of the game in library |
-| `~~`       | `~~ off ~~` disables the game   |
+| Characters | Property                          |
+| ---------- | --------------------------------- |
+| `==`       | Name                              |
+| `--`       | Description                       |
+| `**`       | Author                            |
+| `@@`       | Position of the game in library   |
+| `vv`       | Set the game version number (int) |
+| `~~`       | `~~ off ~~` disables the game     |
 
 Rooms
 -----
@@ -82,4 +83,4 @@ Other
 | Example        | Effect                                    |
 | -------------- | ----------------------------------------- |
 | `<newline>`    | Include a newline                         |
-
+| `<|` ... `|>`  | Escape text                               |
