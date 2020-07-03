@@ -11,6 +11,7 @@ Preamble
 | `**`       | Author                            |
 | `@@`       | Position of the game in library   |
 | `vv`       | Set the game version number (int) |
+| `::`       | Set the minimum AVE version       |
 | `~~`       | `~~ off ~~` disables the game     |
 
 Rooms
