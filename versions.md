@@ -1,7 +1,9 @@
 AVE Versions
 ============
-The following versions of AVE are currently available:
+AVE can currently run on:
 
-* [Python version](/docs/python.md)
+* [Linux](/docs/linux.md)
+* [Mac](/docs/mac.md)
+* [Windows](/docs/windows.md)
 
 The Python source code for AVE can be downloaded from [GitHub](https://github.com/AVEgame/AVE).
