@@ -10,6 +10,9 @@ To install AVE using pip, open command prompt by typing "cmd" in your start menu
 Once AVE has installed, you can play games by running the following command in command prompy:
     ave
 
+If you want to load games you own games from a folder as well as the build in games, you can run:
+    ave /path/to/folder
+
 Downloading the source
 ----------------------
 You can download AVE from [GitHub](/git).
