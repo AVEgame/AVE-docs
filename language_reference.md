@@ -84,4 +84,5 @@ Other
 | Example        | Effect                                    |
 | -------------- | ----------------------------------------- |
 | `<newline>`    | Include a newline                         |
+| `<money>`      | Display currency symbol                   |
 | `<|` ... `|>`  | Escape text                               |
