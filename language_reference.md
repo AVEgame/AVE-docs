@@ -4,13 +4,15 @@ Full AVE language reference
 Preamble
 --------
 
-| Characters | Property                        |
-| ---------- | ------------------------------- |
-| `==`       | Name                            |
-| `--`       | Description                     |
-| `**`       | Author                          |
-| `@@`       | Position of the game in library |
-| `~~`       | `~~ off ~~` disables the game   |
+| Characters | Property                          |
+| ---------- | --------------------------------- |
+| `==`       | Name                              |
+| `--`       | Description                       |
+| `**`       | Author                            |
+| `@@`       | Position of the game in library   |
+| `vv`       | Set the game version number (int) |
+| `::`       | Set the minimum AVE version       |
+| `~~`       | `~~ off ~~` disables the game     |
 
 Rooms
 -----
@@ -75,3 +77,12 @@ Number items
 | ----------- | -------------------------------- |
 | `__R__`     | A random number between 0 and 1  |
 | `__R__(10)` | A random number between 0 and 10 |
+
+Other
+-----
+
+| Example        | Effect                                    |
+| -------------- | ----------------------------------------- |
+| `<newline>`    | Include a newline                         |
+| `<money>`      | Display currency symbol                   |
+| `<|` ... `|>`  | Escape text                               |
